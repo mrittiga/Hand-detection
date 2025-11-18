@@ -1,4 +1,4 @@
-<img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/a9e007b9-b7d8-4140-9e7b-b8b6a5d466ce" /># Hand-detection
+# Hand-detection
 
 This project demonstrates real-time hand detection and tracking using MediaPipe’s Hand Landmark Model combined with OpenCV for video capture and visualization.
 It accurately detects 21 key hand landmarks, tracks finger movement, and helps build gesture-based applications such as virtual mouse, hand-gesture control, sign language interpretation, and more.

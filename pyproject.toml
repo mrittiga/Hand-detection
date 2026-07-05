@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hand-tracker"
+version = "0.1.0"
+description = "A simple real-time hand tracking project using OpenCV and MediaPipe"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "opencv-python>=4.10.0",
+  "mediapipe>=0.10.11",
+]

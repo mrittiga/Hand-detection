@@ -1,31 +1,27 @@
-# Hand-detection
+# Hand Tracker
 
-This project demonstrates real-time hand detection and tracking using MediaPipe’s Hand Landmark Model combined with OpenCV for video capture and visualization.
-It accurately detects 21 key hand landmarks, tracks finger movement, and helps build gesture-based applications such as virtual mouse, hand-gesture control, sign language interpretation, and more.
+This project uses OpenCV and MediaPipe to detect and draw hand landmarks from a webcam in real time.
 
-🚀 Features
+## Requirements
 
-Real-time hand detection from webcam
+- Python 3.9+
+- A working webcam
 
-Tracks 21 hand landmarks
+## Setup on Windows
 
-Identifies multiple hands
+```powershell
+cd "C:\Users\mritt\OneDrive\Desktop\Hand Detection"
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
 
-Smooth, lightweight, high-performance MediaPipe Hand Tracking
+## Run the app
 
-Easy to extend for gesture control, counting fingers, sign recognition etc.
+```powershell
+python Handtracker.py
+```
 
-🧠 How It Works
-MediaPipe Hands Pipeline:
-
-Palm Detection – Detects presence of a hand.
-
-Hand Landmark Model – Predicts 21 landmark points.
-
-Tracking – Tracks the hand across frames using ML + geometry.
-
-Rendering – OpenCV draws landmarks and connections.
-
-<img width="1920" height="1032" alt="Screenshot 2025-11-18 224425" src="https://github.com/user-attachments/assets/3950bfc7-ee23-4c68-9544-13adc7fff908" />
-<img width="1920" height="1032" alt="Screenshot 2025-11-18 224437" src="https://github.com/user-attachments/assets/ea85df24-b909-49ea-b29b-da6e4f4a1d26" />
+Press Esc to exit the window.
 
